@@ -112,7 +112,7 @@ def get_new_weights(data, centroids, old_weights, S, K):
 
 # Function to run test
 def run_test():
-    m = matrix('test_anubavam_dataset.csv')
+    m = matrix('Anubavam_dataset.csv')
     for k in range(2, 11):
         for i in range(20):
             S = get_groups(m, k)
